@@ -1,3 +1,4 @@
+/* Theme variables */
 *{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -5,6 +6,7 @@ body{
     margin: 0;
     font-size: 15px;
     background-color: rgb(230, 170, 238);
+    
 }
 header{
     height: 100vh;
@@ -17,18 +19,23 @@ header{
     justify-content: center;
     align-items:center; 
     flex-direction: row;
+    
 }
 header h1{
     margin: 0;
     color: aliceblue;
+    text-align: center;
+    display: block;
     
 }
 h1{
     color: rgb(61, 7, 76);
     font-size: 2rem;
+    text-align: center;
 }
 h2{
     color: rgb(61, 7, 76);
+    text-align: center;
 }
 .button{
     height: 30px;
@@ -36,7 +43,10 @@ h2{
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    align-items: center;
     color: #4c3853;
+    
+
 }
 .button:hover{
     color: aliceblue;
@@ -44,9 +54,12 @@ h2{
 }
 img{
     height: 200px;
+    width: 100px;
+    
 }
 main{
-    padding: 20px;
+    padding: 10px;
+    display: grid;
 }
 
 section{
@@ -54,6 +67,8 @@ section{
     border: 1px solid gray;
     border-radius:  20px;
     margin: 20px;
+    text-align: center;
+    position: relative;
 }
 
 .submit:hover{
@@ -80,7 +95,14 @@ input{
 }
 footer{
     height: 124px;
-    background-color: black;
+    background-color: rgb(138, 73, 146);
     color: azure;
-
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+   
 }
+ol{
+    text-align: center;
+};
+  align-items: c…
